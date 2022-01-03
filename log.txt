@@ -1,0 +1,26 @@
+ * Serving Flask app 'deploy' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/home/ubuntu/classifier/flask/lib/python3.8/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator TfidfTransformer from version 1.0.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/ubuntu/classifier/flask/lib/python3.8/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 1.0.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/ubuntu/classifier/flask/lib/python3.8/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator SVC from version 1.0.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/ubuntu/classifier/flask/lib/python3.8/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator Pipeline from version 1.0.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.31.12.190:5000/ (Press CTRL+C to quit)
+41.68.35.55 - - [02/Jan/2022 14:26:59] "[31m[1mGET /classify/ HTTP/1.1[0m" 405 -
+41.68.35.55 - - [02/Jan/2022 14:27:07] "GET / HTTP/1.1" 200 -
+197.47.139.250 - - [02/Jan/2022 14:27:07] "GET / HTTP/1.1" 200 -
+197.47.139.250 - - [02/Jan/2022 14:27:09] "GET / HTTP/1.1" 200 -
+41.68.35.55 - - [02/Jan/2022 14:27:24] "[32mPOST /classify HTTP/1.1[0m" 308 -
+41.68.35.55 - - [02/Jan/2022 14:27:24] "POST /classify/ HTTP/1.1" 200 -

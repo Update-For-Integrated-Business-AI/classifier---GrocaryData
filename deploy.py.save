@@ -11,10 +11,10 @@ app = Flask(__name__,template_folder='template')
 
 def classify(itemName):
     t1= time.time()
-    print("[INFO]: input product  " + itemName)
+    print(["INFO]: input product" + itemName)
     prediction= loaded_model.predict([itemName])
     t2=time.time()
-    print("[INFO]: output class " + prediction[0])
+    print(prediction)
     precentage= (loaded_model.predict_proba([itemName]).max())*100
     print("time =",str( t2-t1))
     return prediction, precentage
