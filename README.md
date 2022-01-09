@@ -1,5 +1,5 @@
 
-#Product categorization
+# Product categorization
 ## The main use case is classifying products
 
 # Usage
